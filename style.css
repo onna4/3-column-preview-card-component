@@ -28,4 +28,101 @@
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+.container {
+    display: grid;
+    color: var(--Very-light-gray);
+    margin: 5rem 3rem;
+}
+.cartype {
+    padding: 2rem;
+}
+.sedans {
+    background-color: var(--Bright-orange);
+}
+.SUVs {
+    background-color: var(--Dark-cyan);
+}
+.lux {
+    background-color: var(--Very-dark-cyan);
+}
+.cartype p {
+    color: var(--Transparent-white);
+    line-height: 1.5;
+    font-size: 25px;;
+}
+.cartype p, .cartype button {
+    font-family: var(--Big-Shoulders-Display);
+    padding: 0.7rem;
+}
+.cartype button {
+    margin: 2.7rem 0.7rem 0.7rem;
+    border-radius: 25px;
+    border: 2px solid white;
+    width: 140px;
+    font-size: 18px;
+}
+.cartype button:hover {
+    cursor: pointer;
+    color: var(--Very-light-gray);
+}
+.sedans button:hover{
+    background-color: var(--Bright-orange);
+}
+.SUVs button:hover{
+    background-color: var(--Dark-cyan);
+}
+.lux button:hover{
+    background-color: var(--Very-dark-cyan);
+}
+.sedans button{
+    color: var(--Bright-orange);
+}
+.SUVs button{
+    color: var(--Dark-cyan);
+}
+.lux button{
+    color: var(--Very-dark-cyan);
+}
+.cartype h1 {
+    font-family: var(--Lexend-Deca);
+    padding: 1rem;
+    font-size: 34px;
+}
+.cartype img {
+    margin: 0.6rem;
+}
+@media (min-width: 768px){
+    .container {
+        max-width: 750px;
+        grid-template-columns: repeat(3, auto);
+    }
+    .sedans {
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+    .lux {
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .cartype p {
+        font-size: 15px;;
+    }
+    .cartype h1 {
+        font-size: 26px;
+    }
+    .cartype button {
+        width: 120px;
+        font-size: 15px;
+    }
+}
+@media (min-width: 992px){
+    
+}
+@media (min-width: 1200px){
 
+}
