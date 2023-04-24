@@ -24,12 +24,12 @@ Users should be able to:
 
 ### Screenshot
 
-![Design preview for the 3-column preview card component coding challenge](./design/desktop-design.jpg)
+![Design preview for the 3-column preview card component coding challenge](./design/mydesktop-design.jpg)
 
 
 ### Links
 
-- Solution URL: [Solution URL]([https://your-solution-url.com](https://www.frontendmentor.io/solutions/3-column-card-component-MHXFjNdwKO))
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/3-column-card-component-MHXFjNdwKO)
 - Live Site URL: [Live site URL](https://onna4.github.io/3-column-preview-card-component)
 
 ## My process
